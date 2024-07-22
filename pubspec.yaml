@@ -21,6 +21,9 @@ dependencies:
   flutter_screenutil:
   bot_toast:
   firebase_core:
+  firebase_auth: ^4.16.0
+  package_info_plus:
+  google_sign_in: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -31,6 +34,7 @@ dev_dependencies:
   widget_binding_lego: #@add
   firebase_core_lego: #@add
   sa_data_class_lego:
+  package_info_plus_lego:
 
 flutter:
   assets:

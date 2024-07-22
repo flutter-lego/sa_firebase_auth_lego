@@ -159,3 +159,5 @@ lib/note.dart
 .clone-june-flutter/
 #ios/Podfile.lock
 ios/Podfile.lock
+*.json
+*.json
