@@ -24,6 +24,8 @@ dependencies:
   firebase_auth: ^4.16.0
   package_info_plus:
   google_sign_in: ^6.2.1
+  flutter_fgbg:
+  easy_event_bus:
 
 dev_dependencies:
   flutter_test:
@@ -35,6 +37,10 @@ dev_dependencies:
   firebase_core_lego: #@add
   sa_data_class_lego:
   package_info_plus_lego:
+  sa_fgbg_listener_lego:
+  flutter_fgbg_lego:
+  listener_lego: #@add
+  sa_listener_lego:
 
 flutter:
   assets:

@@ -2,14 +2,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../../../../main.dart';
-import '../logout/_.dart';
 import '_.dart';
 
 String _noteName = "Note";
 
 T _button00 = T("00", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-  User? result = await loginWithGoogle();
+  bool result = await logout();
   print("result: $result");
 
   ////////////////////////////////////////
@@ -17,7 +16,6 @@ T _button00 = T("00", onTap: (BuildContext context) async {
 
 T _button01 = T("01", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-  await logout();
 
   ////////////////////////////////////////
 });

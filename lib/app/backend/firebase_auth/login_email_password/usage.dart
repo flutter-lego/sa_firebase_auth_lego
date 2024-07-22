@@ -8,7 +8,7 @@ String _noteName = "Note";
 
 T _button00 = T("00", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-  User? result = await loginEmailPassword("email", "password");
+  User? result = await loginEmailPassword("example@gmail.com", "password");
   print("loginEmailPassword: $result");
 
   ////////////////////////////////////////
